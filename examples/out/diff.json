@@ -1,0 +1,17 @@
+{
+  "equal": false,
+  "left_sha256": "8afd119c5b69ded73addfd2f867377d077eb5b77898be02e164cd02a4b120700",
+  "right_sha256": "c4975188059aee289b243bb3d7cff65146fd25608ff9431061d4070a6dcf5b1a",
+  "differences": [
+    {
+      "code": "D030",
+      "path": "state",
+      "left": {
+        "n": 1
+      },
+      "right": {
+        "n": 2
+      }
+    }
+  ]
+}

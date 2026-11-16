@@ -1,0 +1,27 @@
+{
+  "run": {
+    "runId": "r",
+    "threadId": "t",
+    "outcome": "success",
+    "error": null
+  },
+  "messages": [
+    {
+      "id": "m1",
+      "role": "assistant",
+      "text": "hello"
+    }
+  ],
+  "toolCalls": [
+    {
+      "id": "c1",
+      "name": "search",
+      "args": "{\"q\":\"x\"}"
+    }
+  ],
+  "state": {
+    "n": 1
+  },
+  "steps": [],
+  "sha256": "8afd119c5b69ded73addfd2f867377d077eb5b77898be02e164cd02a4b120700"
+}

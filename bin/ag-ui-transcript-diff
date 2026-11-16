@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 "$(dirname "$0")/../agui_transcript_diff.py" "$@"
